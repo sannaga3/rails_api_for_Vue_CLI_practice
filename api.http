@@ -1,0 +1,26 @@
+# < Taskのcreate >
+# post http://localhost:3000/api/v1/tasks
+# content-type: application/json
+
+# {
+#   "title": "title_03",
+#   "content": "content_03"
+# }
+
+
+# < Taskのindex >
+# get http://localhost:3000/api/v1/tasks
+# content-type: application/json
+
+# < Taskのupdate >
+patch http://localhost:3000/api/v1/tasks/2
+content-type: application/json
+
+{
+  "title": "title_03 update",
+  "content": "content_03 update"
+}
+
+# < Taskのdestroy >
+# delete http://localhost:3000/api/v1/tasks/3
+# content-type: application/json
